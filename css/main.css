@@ -63,13 +63,13 @@ h2{
 }
 .fa {
 	padding: 10px;
-	/* padding-bottom: 5px; */
 	width: 40px;
 	text-align: center;
 	margin: 5px 3px;
 	float: right;
 	text-decoration: none;
 	font-size: 10px;
+	
 }
 .fa-facebook {
 	background: #3B5998;
