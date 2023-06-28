@@ -51,22 +51,23 @@ h2{
 
 }
 .wrapper{
-	background-color: rgb(230, 233, 209);
+	/* background-color: rgb(230, 233, 209); */
 	margin: 0 auto;
 	margin-top: 5px;
 	padding: 5px;
 }
+/* the header section  */
 .logo-container{
 	background-color: goldenrod;
 	margin: 0 auto;
 	padding: 20px;
+	
 }
 .fa {
 	padding: 10px;
 	width: 40px;
 	text-align: center;
 	margin: 5px 3px;
-	float: right;
 	text-decoration: none;
 	font-size: 10px;
 	
@@ -91,3 +92,91 @@ h2{
 	height: 600px;
 	padding: auto;
 }
+ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.box {
+	background-color: rgb(255, 195, 0);
+	padding: 10px;
+	margin-top: 5px;
+	border-radius: 2px;
+	max-width: 65px;
+	margin: 10px;
+	text-align: center;
+	width: 100%;
+}
+.box:hover{
+	background-color: rgb(230, 233, 209);
+	transition: 0.5s;
+}
+ li a{
+	
+	text-decoration: none;
+	color: aliceblue;
+	
+}
+ul a,
+ul a:link,
+ul a:visited{
+	display: inline-block;
+	transition: transform .3s;
+}
+ul a:hover,
+ul a:focus{
+	text-decoration: underline;
+	transform: scale(1.2);
+	color: black;
+	
+	
+}
+ul a:active{
+	transform: scale(0.9) translateX(8px);
+}
+form{
+	float: right;
+	/* padding: 10px 1px;
+	font-size: 5px; */
+	border: none;
+	cursor: pointer;
+	
+  }
+ 
+  form input[type=text] {
+	padding: 12px;
+	margin-top: 8px;
+	font-size: 15px;
+	border: none;
+	width: 300px;
+	
+  }
+ 
+	 .grid-1 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		justify-content: space-evenly;
+		margin-top: 50px;
+	
+	 }
+	 .grid-1 img {
+		border-radius: 10px;
+		width: 100%;
+	 }
+	 .grid-1 p{
+		background-color: rgb(255, 195, 0);
+		padding: 18px;
+		margin-top: 10px;
+		text-align: center;
+		border-radius: 20px;
+		
+	 }
+	 .grid-1 p:hover{
+		background-color: #3B5998;
+		transition: 0.5s;
+		transform: scale(0.9);
+		color: aliceblue;
+
+	 }
+  
