@@ -132,7 +132,7 @@ ul{
 	justify-content: center;
 }
 .box {
-	background-color: rgb(255, 195, 0);
+	background-color: #3B5998;
 	padding: 5px;
 	margin-top: 5px;
 	border-radius: 5px;
@@ -142,13 +142,13 @@ ul{
 	/* width: 100%; */
 }
 .box:hover{
-	background-color: #3B5998;
+	background-color: rgb(255, 195, 0); 
 	transition: 0.5s;
 }
  li a{
 	
 	text-decoration: none;
-	color:  #3B5998;
+	color:  whitesmoke;
 	font-size: 1.0rem;
 	
 }
@@ -162,7 +162,7 @@ ul a:hover,
 ul a:focus{
 	text-decoration: underline;
 	transform: scale(1.2);
-	color: whitesmoke;
+	color:  #3B5998;
 	
 	
 }
@@ -286,14 +286,14 @@ form{
   
 /* contact section */
 .container-contact{
-	 max-width: 800px; 
+	 width: 730px; 
 	background-color: whitesmoke;
 	margin-top: 15px;
 	border-radius: 5px;
-	padding: 25px;
+	padding: 20px;
 	margin: 0 auto;
 	height: 540px;
-	width: 100%;
+	/* width: 100%; */
 
 	
 }
@@ -329,6 +329,14 @@ input[type=text], select, textarea {
 	/* width: 900px; */
 	width: 100%;
 	resize: vertical;
+  }
+  
+  .map {
+	margin: 0 auto;
+	padding: 25px;
+	margin-top: 10px;
+
+	
   }
   /* About section */
   .wrapper-about{
