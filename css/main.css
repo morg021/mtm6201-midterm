@@ -228,7 +228,6 @@ form{
 		transform: rotateY(180deg);
 	  }
 	  .before {
-		/* background: url("https://placekitten.com/150"); */
 		background-image: url('../images/image.active.jpg');
 		z-index: 100;
 		backface-visibility: hidden;
@@ -236,7 +235,6 @@ form{
 	  
 	  .after {
 		background-color: rgb(201, 198, 235);
-		/* color:white; */
 		padding: .5rem;
 		transform: rotateY(-180deg);
 		backface-visibility: hidden;
@@ -456,5 +454,15 @@ input[type=text], select, textarea {
 		padding: 5px;
 	
 	  }
-	
+	  .main-intro div{
+		width: 360px;
+		height: 300px;
+		 position: static; 
+		margin-right: 25px;
+		border-radius: 8px;
+		border: solid  #3B5998 5px;
+		padding: 5px;
+		
+	  }
+	 
 }
