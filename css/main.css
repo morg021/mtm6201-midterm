@@ -90,12 +90,14 @@ h4 {
 	float: right;
 }
 .fa {
-	padding: 15px;
-	width: 40px;
+	padding: 10px;
+	width: 30px;
 	text-align: center;
 	margin: 5px 3px;
 	text-decoration: none;
 	font-size: 10px;
+
+	
 	
 }
 .fa-facebook {
@@ -157,6 +159,8 @@ ul a:link,
 ul a:visited{
 	display: inline-block;
 	transition: transform .3s;
+	transition-duration: 7s;
+
 }
 ul a:hover,
 ul a:focus{
@@ -202,7 +206,7 @@ form{
 		padding: 20px;
 		
 	}
-	.card{
+	.main-intro{
 		width: 600px;
 		height: 400px;
 		margin: 0 auto;
@@ -212,7 +216,7 @@ form{
 		
 		
 	  }
-	  .card div{
+	  .main-intro div{
 		width: 600px;
 		height: 400px;
 		position: absolute;
@@ -220,19 +224,19 @@ form{
 		border: solid  #3B5998 5px;
 		
 	  }
-	  .card:hover {
+	  .main-intro:hover {
 		transform: rotateY(180deg);
 	  }
-	  .front {
+	  .before {
 		/* background: url("https://placekitten.com/150"); */
 		background-image: url('../images/image.active.jpg');
 		z-index: 100;
 		backface-visibility: hidden;
 	  }
 	  
-	  .back {
+	  .after {
 		background-color: rgb(201, 198, 235);
-		color:white;
+		/* color:white; */
 		padding: .5rem;
 		transform: rotateY(-180deg);
 		backface-visibility: hidden;
@@ -243,6 +247,7 @@ form{
 	  .bold-h3 {
 		text-align: center;
 		text-decoration: none;	
+	
 	  }
 	  .bold-h3 a {
         text-decoration: none;
@@ -356,9 +361,9 @@ input[type=text], select, textarea {
   } */
   .client-review {
 	text-align: center;
-	padding: 10px;
-	margin-top: 5px;
+	padding: 5px;
 	color: #3B5998;
+	padding-top: 5px;
   }
   .client-grid{
 	display: flex;
@@ -377,8 +382,79 @@ input[type=text], select, textarea {
   .container-client{
 	max-width: 500px;
 	padding: 10px;
-	background-color: antiquewhite;
+	background-color: whitesmoke;
 	margin-top: 10px;
+	color: #3B5998; 
 
   }
-  
+  footer{
+	width: 0 auto;
+	height: 500px;
+	background-color: rgb(255, 195, 0) ;
+  }
+  .footer {
+	background-color: #3B5998;
+	height: 50px;
+	width: 0 auto;
+  }
+  .search input {
+	/* width: calc(100% - 500px); */
+	max-width: 600px;
+	width: 100%;
+	padding: 10px;
+	float: right;
+  }
+  .button {
+	background-color:rgb(255, 195, 0) ;
+	padding: 35px;
+	width: 200px;
+	/* margin: 0 auto; */
+	margin-top: 6px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	border: none;
+	font-size: 20px;
+	margin-left: 10px;
+	
+	}
+
+	.button a{
+		text-decoration: none;
+
+	}
+	.button a:hover{
+		text-decoration: solid;
+	transform: scale(1.2);
+	color: whitesmoke;
+	background-color: #3B5998;
+
+	}
+
+/* media */
+
+@media screen and (max-width: 755px){
+	body{
+		font-size: 1rem;
+	
+	}
+	h1 
+    {font-family: 'Tilt Prism', cursive;
+	 font-size: 2rem;
+	color:rgb(80, 140, 193);
+	}
+	ul{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.client-grid{
+		display: flex;
+		 flex-direction: column;
+		margin: 0 auto;
+		justify-content: space-evenly;
+		padding: 5px;
+	
+	  }
+	
+}
