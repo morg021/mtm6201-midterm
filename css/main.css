@@ -209,6 +209,7 @@ form{
 	}
 	.main-container {
 		padding: 10px;
+		width: 0 auto;
 		
 	}
 	.main-container p {
@@ -373,13 +374,7 @@ input[type=text], select, textarea {
 	margin-top: 10px;
 	height: 0 auto;
   }
-  /* .client-grid{
-	display: grid;
-	grid-template-columns: 33.3% 33.3% 33.3% ;
-	margin: 0 auto;
-	padding: 10px;
-	m
-  } */
+  
   .client-review {
 	text-align: center;
 	padding: 5px;
@@ -392,6 +387,7 @@ input[type=text], select, textarea {
 	margin: 0 auto;
 	justify-content: space-evenly;
 	padding: 10px;
+	width: 0 auto;
 
   }
   .client-grid Img{
