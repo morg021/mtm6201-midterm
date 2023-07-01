@@ -207,7 +207,7 @@ form{
 		padding: auto;
 		
 	}
-	.main-container {
+	/* .main-container {
 		padding: 10px;
 		width: 0 auto;
 		
@@ -256,7 +256,7 @@ form{
 		padding: .5rem;
 		transform: rotateY(-180deg);
 		backface-visibility: hidden;
-	  }
+	  } */
 	  h3{
 		margin: 0;
 	  }
