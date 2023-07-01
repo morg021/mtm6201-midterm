@@ -78,7 +78,7 @@ h4 {
 	margin: 0 auto;
 	margin-top: 5px;
 	padding: 5px;
-	width: auto;
+	width: 100%;
 }
 /* the header section  */
 .logo-container{
@@ -125,7 +125,7 @@ h4 {
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: 0 auto;
-	/* width: 100%; */
+	 width: auto;
 	height: 600px;
 	padding: auto;
 }
