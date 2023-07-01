@@ -214,11 +214,13 @@ form{
 	.main-container p {
 		padding: 30px;
 		color: #3B5998;
+		width: 0 auto;
 	}
 
 	.main-container h2{
 		text-align: center;
 		padding: 20px;
+		width: 0 auto;
 		
 	}
 	.main-intro{
