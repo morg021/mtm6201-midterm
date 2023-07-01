@@ -476,6 +476,13 @@ input[type=text], select, textarea {
 		padding: 5px;
 	
 	  }
+	  .item1 p{ 
+		margin-bottom: 10px;
+	}
+	.item3 { 
+		margin-top: 10px;
+	}
+
 	  /* .main-intro div{
 		width: 360px;
 		height: 300px;
