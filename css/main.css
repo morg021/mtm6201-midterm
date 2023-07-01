@@ -79,7 +79,7 @@ h4 {
 	margin-top: 5px;
 	padding: 10px;
 	width: 100%;
-	max-width: 1200px;
+	
 	
 }
 /* the header section  */
@@ -223,7 +223,7 @@ form{
 		
 	}
 	.main-intro{
-		width: 600px;
+		width: 500px;
 		height: 400px;
 		margin: 0 auto;
 		transform-style: preserve-3d;
@@ -245,8 +245,8 @@ form{
 	  }
 	  .before {
 		background-image: url('../images/image.active.jpg');
-		z-index: 50;
-		backface-visibility: hidden;
+		/* z-index: 100; */
+		/* backface-visibility: hidden; */
 		width: 100%;
 	  }
 	  
