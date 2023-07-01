@@ -75,10 +75,11 @@ h4 {
 }
 .wrapper{
 	/* background-color: rgb(230, 233, 209); */
-	/* margin: 0 auto; */
+	 margin: 0 auto; 
 	margin-top: 5px;
-	padding: 5px;
+	padding: 10px;
 	width: 100%;
+	
 }
 /* the header section  */
 .logo-container{
@@ -128,6 +129,7 @@ h4 {
 	 width: auto;
 	height: 600px;
 	padding: auto;
+	width: 100%;
 }
 .main-header {
 	background-color: rgba(107, 110, 107, 0.6);
@@ -183,13 +185,15 @@ ul a:active{
 	transform: scale(0.9) translateX(8px);
 }
 form{
-	float: right;
+	 float: right; 
 	/* padding: 10px 1px;
 	font-size: 5px; */
 	border: none;
 	cursor: pointer;
 	
+	
   }
+  
  
   form input[type=text] {
 	padding: 12px;
@@ -297,14 +301,17 @@ form{
 	 }
   
 /* contact section */
+
 .container-contact{
-	 width: 730px; 
 	background-color: whitesmoke;
 	margin-top: 15px;
 	border-radius: 5px;
 	padding: 20px;
 	margin: 0 auto;
-	height: 540px;
+	height: auto;
+	max-width: 820px;
+
+	
 	/* width: 100%; */
 
 	
@@ -328,12 +335,14 @@ input[type=text], select, textarea {
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
+	
   }
   
   input[type=submit]:hover {
-	background-color: #3B5998;
+	background-color: rgb(255, 195, 0);
+	
   }
-  
+
   #subject {
 	height: 200px;
   }
