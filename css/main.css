@@ -365,8 +365,8 @@ input[type=text], select, textarea {
   .wrapper-about{
 	margin: 0 auto;
 	background-color: aliceblue;
-	width: 100%;
-	padding: 15px;
+	width: auto;
+	padding: 10px;
 	margin-top: 10px;
   }
   /* .client-grid{
