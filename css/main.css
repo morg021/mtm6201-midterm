@@ -550,8 +550,11 @@ input[type=text], select, textarea {
 	  } 
 	 
 	  */
-	 
-	  
+	} 
+	  @media screen and (max-width: 740px){
+	  .header-form {
+		display: none;
+	}
 	
 
 }
