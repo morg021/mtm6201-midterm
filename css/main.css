@@ -131,6 +131,7 @@ h4 {
 	height: 600px;
 	padding: auto;
 	width: 100%;
+	
 }
 .main-header {
 	background-color: rgba(107, 110, 107, 0.6);
@@ -280,7 +281,7 @@ form{
 		background-color: rgb(255, 195, 0);
 	  }
 	 
-	 .grid-1 {
+	 .inventory-1 {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -288,11 +289,11 @@ form{
 		margin-top: 50px;
 	
 	 }
-	 .grid-1 img {
+	 .inventory-1 img {
 		border-radius: 10px;
 		width: 100%;
 	 }
-	 .grid-1 p{
+	 .inventory-1 p{
 		background-color: rgb(255, 195, 0);
 		padding: 18px;
 		margin-top: 10px;
@@ -300,7 +301,7 @@ form{
 		border-radius: 20px;
 		
 	 }
-	 .grid-1 p:hover{
+	 .inventory-1 p:hover{
 		background-color: #3B5998;
 		transition: 0.5s;
 		transform: scale(0.9);
@@ -461,8 +462,13 @@ input[type=text], select, textarea {
 	}
 
 /* media */
+@media screen and (max-width: 1080px){
+	.item3 { 
+		
+		display: none;
+	}
 
-@media screen and (max-width: 820px){
+@media screen and (max-width: 720px){
 	body{
 		font-size: 1rem;
 	
@@ -478,20 +484,28 @@ input[type=text], select, textarea {
 		flex-direction: column;
 		justify-content: center;
 	}
+	
+	
 	.client-grid{
 		display: flex;
 		 flex-direction: column;
 		margin: 0 auto;
+		
 		justify-content: space-evenly;
 		padding: 5px;
-	
+		padding-right: 20px;
 	  }
+	  
 	  .item1 p{ 
 		margin-bottom: 12px;
 	}
+	
+
+	/* @media screen and (max-width: 1080px){
 	.item3 { 
 		margin-top: 12px;
-	}
+		display: none;
+	} */
 
 	  /* .main-intro div{
 		width: 360px;
@@ -512,7 +526,7 @@ input[type=text], select, textarea {
 	}  */
 }
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 820px){
 	.main-intro{
 		width: 290px;
 		height: 200px;
@@ -535,10 +549,19 @@ input[type=text], select, textarea {
 		
 	  }
 	  .main-container p {
-		padding: 0;
+		padding: 20px;
 		color: #3B5998;
+
 		
 	}
+	/* .main-container{
+		max-width: 200px;
+		margin: auto;
+		text-align: center;
+		
+		
+	} */
+	6
 	/* .main-intro:hover {
 		transform: rotateY(180deg);
 
@@ -564,6 +587,15 @@ input[type=text], select, textarea {
 	  @media screen and (max-width: 740px){
 	  .header-form {
 		display: none;
+	}
+
+	@media screen and (max-width: 740px){
+	header-container{
+		background-image: url('../images/header-image2.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: 0 auto;
+		 width: auto;
 	}
 	
 
