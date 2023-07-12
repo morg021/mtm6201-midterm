@@ -19,7 +19,7 @@
 <body>
 <div class="wrapper">
     <div class="header-container">
-        <header>
+        <header role="banner">
             <div class=" logo-container">
                 <a href="index.html"> <img 
                     alt="image of the main logo"
@@ -34,7 +34,7 @@
                     <button type="submit"><i class="fa fa-search"></i></button>
                   </form>
             </div>
-            <nav>
+            <nav role="navigation">
                 <ul>
                     <li class="box box1"><a href="index.html">Home</a></li>
                     <li class="box box2"><a href="about.html">About</a></li>
@@ -52,7 +52,7 @@
     </div>
     <h3>Contact Form</h3>
 
-    <div class="container-contact">
+    <div class="container-contact" itemprop="https://schema.org/person">
   <form1 action="/action_page.php">
     <label for="fname">First Name</label><br>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -62,7 +62,7 @@
 
     <label for="country">Country</label>
     <select id="country" name="country">
-        <option value="nigeria">Nigeria</option>
+        <option value="nigeria">Nigeria</option>*
       <option value="ghana">Ghana</option>
       <option value="canada">Canada</option>
       <option value="usa">USA</option>
@@ -76,10 +76,8 @@
 </div>
 <br>
 <div >
-<!-- <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.677920841686!2d-75.7158374238505!3d45.335125942041614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce07c71240b071%3A0xf6bd9ec2b07f59e6!2s110%20Bentley%20Ave%2C%20Nepean%2C%20ON%20K2E%206T9!5e0!3m2!1sen!2sca!4v1687993880401!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-   -->
 </div> 
-<footer>
+<footer role="contentinfo">
     <div class="footer">&copy; Equipment Expert Services</div>
         <div>
             <p>
