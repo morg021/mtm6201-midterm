@@ -501,29 +501,7 @@ input[type=text], select, textarea {
 	}
 	
 
-	/* @media screen and (max-width: 1080px){
-	.item3 { 
-		margin-top: 12px;
-		display: none;
-	} */
-
-	  /* .main-intro div{
-		width: 360px;
-		height: 300px;
-		 position: static; 
-		margin-right: 25px;
-		border-radius: 8px;
-		border: solid  #3B5998 5px;
-		padding: 5px;
-		
-	  } */
-	   /* .wrapper{
-		background-color: rgb(230, 233, 209); 
-		margin: 0 auto;
-		margin-top: 5px;
-		padding: 5px;
-		max-width: 750px;
-	}  */
+	
 }
 
 @media screen and (max-width: 820px){
@@ -554,49 +532,29 @@ input[type=text], select, textarea {
 
 		
 	}
-	/* .main-container{
-		max-width: 200px;
-		margin: auto;
-		text-align: center;
-		
-		
-	} */
-	6
-	/* .main-intro:hover {
-		transform: rotateY(180deg);
-
-		
-	   }
-	   .before {
-		background-image: url('../images/image.active.jpg');
-		 z-index: 100; 
-	 backface-visibility: hidden; 
-		
 	
-	  }
 	.after {
 		background-color: rgb(201, 198, 235);
 		padding: .5rem;
 		transform: rotateY(-180deg);
 		backface-visibility: hidden;
 		transition-duration: .5s;
-	  } 
 	 
-	  */
+	  
 	} 
 	  @media screen and (max-width: 740px){
 	  .header-form {
 		display: none;
 	}
 
-	@media screen and (max-width: 740px){
-	header-container{
-		background-image: url('../images/header-image2.jpg');
-		background-repeat: no-repeat;
-		background-position: center;
-		margin: 0 auto;
-		 width: auto;
-	}
+		header-container{
+			background-image: url('../images/header-image3.jpg');
+			background-repeat: no-repeat;
+			background-position: center;
+			margin: 0 auto;
+		
+		}
 	
 
 }
+	  
