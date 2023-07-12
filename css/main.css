@@ -418,6 +418,9 @@ input[type=text], select, textarea {
 	background-color: #3B5998;
 	height: 50px;
 	width: 0 auto;
+	text-align: end;
+	padding-top: 15px;
+    padding-right:  5px;
 	
   }
   /* .search input {
@@ -430,9 +433,9 @@ input[type=text], select, textarea {
 
   .form-footer{
 	max-width: 400px;
-	width: 100%;
-	float: right;
-	padding: auto;
+	
+	float: left;
+	padding-left: 10px;
 
   }
   .button {
