@@ -116,7 +116,7 @@ h4 {
 }
 .fa-search{ 
 	padding: 10px;
-	width: 30px;
+	width: 20px;
 	/* text-align: center; */
 	margin: 3px 1px;
 	text-decoration: none;
@@ -189,8 +189,6 @@ ul a:active{
 }
 form{
 	 float: right; 
-	/* padding: 10px 1px;
-	font-size: 5px; */
 	border: none;
 	cursor: pointer;
 	
@@ -214,7 +212,7 @@ form{
 
 	.main-container h2{
 		text-align: center;
-		padding: 20px;
+		padding: 15px;
 		
 	}
 	.main-intro{
@@ -233,7 +231,7 @@ form{
 		position: absolute;
 		border-radius: 8px;
 		border: solid  #3B5998 5px;
-	
+		
 		
 	  }
 	  .main-intro:hover {
@@ -242,6 +240,7 @@ form{
 	   }
 	  .before {
 		background-image: url('../images/image.active.jpg');
+	
 		
 	  }
 	  
@@ -311,9 +310,6 @@ form{
 	max-width: 820px;
 
 	
-	/* width: 100%; */
-
-	
 }
 
 input[type=text], select, textarea {
@@ -346,7 +342,6 @@ input[type=text], select, textarea {
 	height: 200px;
   }
   #fname, #lname {
-	/* width: 900px; */
 	width: 100%;
 	resize: vertical;
   }
@@ -417,7 +412,6 @@ input[type=text], select, textarea {
   
   .form-footer{
 	max-width: 400px;
-	
 	float: left;
 	padding-left: 10px;
 
