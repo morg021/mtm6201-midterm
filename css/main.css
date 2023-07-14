@@ -231,8 +231,7 @@ form{
 		border-radius: 8px;
 		border: solid  #3B5998 5px;
 		
-		
-	  }
+		}
 	  .main-intro:hover {
 		transform: rotateY(180deg);
 		
@@ -345,14 +344,6 @@ input[type=text], select, textarea {
 	resize: vertical;
   }
   
-  .map {
-	margin: 0 auto;
-	padding: 25px;
-	margin-top: 10px;
-
-
-	
-  }
   /* About section */
   .wrapper-about{
 	margin: 0 auto;
@@ -402,9 +393,9 @@ input[type=text], select, textarea {
 	background-color: #3B5998;
 	height: 50px;
 	width: 100%;
-	text-align: end;
+	text-align: center;
 	padding-top: 15px;
-    padding-right:  15px;
+    /* padding-right:  15px; */
 	font-size: 1.7rem;
 	
   }
