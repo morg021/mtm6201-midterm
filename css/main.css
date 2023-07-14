@@ -70,11 +70,10 @@ h3{
 }
 h4 {
 	font-family: 'Lora', serif;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	
 }
 .wrapper{
-	/* background-color: rgb(230, 233, 209); */
 	 margin: 0 auto; 
 	margin-top: 5px;
 	padding: 10px;
@@ -127,7 +126,6 @@ h4 {
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: 0 auto;
-	 width: auto;
 	height: 600px;
 	padding: 2px;
 	width: 100%;
@@ -135,7 +133,7 @@ h4 {
 }
 .main-header {
 	background-color: rgba(107, 110, 107, 0.6);
-	padding: 80px;
+	padding: 70px;
 	color: aliceblue;
 	position: relative;
 	text-align: center;
@@ -195,7 +193,7 @@ form{
   }
   
   form input[type=text] {
-	padding: 12px;
+	padding: 10px;
 	margin-top: 5px;
 	font-size: 15px;
 	border: none;
@@ -213,10 +211,11 @@ form{
 	.main-container h2{
 		text-align: center;
 		padding: 15px;
+		margin-top: 10px;
 		
 	}
 	.main-intro{
-		width: 500px;
+		width:500px;
 		height: 400px;
 		margin: 0 auto;
 		transform-style: preserve-3d;
