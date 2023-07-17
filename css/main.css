@@ -460,6 +460,12 @@ input[type=text], select, textarea {
 			
 			
 		  }
+		  .before {
+			background-image: url('../images/image.active-3.jpg');
+		
+			
+		  }
+
 		  .main-container p {
 			padding: 1px;
 			color: #3B5998;
